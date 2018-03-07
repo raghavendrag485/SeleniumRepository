@@ -1,0 +1,68 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Verifing login page with valid details",
+        "description": "",
+        "id": "verifing-login-page-of-the-makemytrip;verifing-login-page-with-valid-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 293101177,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.makemytrip.stepdefinition.LoginPageStpsdef.user_is_already_on_login_page(LoginPageStpsdef.java:23)\r\n\tat ✽.Given User is already on login page(C:/Users/sai/workspace/MakeMyTrip/src/main/java/com/makemytrip/feature/loginpage.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User is already on login page",
+            "match": {
+              "location": "LoginPageStpsdef.user_is_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User verifies title of the page",
+            "match": {
+              "location": "LoginPageStpsdef.user_verifies_title_of_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User enters username and password",
+            "match": {
+              "location": "LoginPageStpsdef.user_enters_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user is on Homepage",
+            "match": {
+              "location": "LoginPageStpsdef.user_is_on_Homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifing login page of the makemytrip",
+    "description": "",
+    "id": "verifing-login-page-of-the-makemytrip",
+    "keyword": "Feature",
+    "uri": "C:/Users/sai/workspace/MakeMyTrip/src/main/java/com/makemytrip/feature/loginpage.feature"
+  }
+]
