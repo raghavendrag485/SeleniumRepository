@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="C:\\Users\\sai\\workspace\\MakeMyTrip\\src\\main\\java\\com\\makemytrip\\feature\\loginpage.feature",
+@CucumberOptions(features="C:\\Users\\sai\\git\\.git\\MakeMyTrip\\src\\main\\java\\com\\makemytrip\\feature\\loginpage.feature",
                  glue="com.makemytrip.stepdefinition",
                  format={"pretty","json:test-output","junit:junit-output"},
                  dryRun=false,
