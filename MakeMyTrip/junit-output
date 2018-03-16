@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.293101">
-<testcase classname="Verifing login page of the makemytrip" name="Verifing login page with valid details" time="0.293101">
-<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.makemytrip.stepdefinition.LoginPageStpsdef.user_is_already_on_login_page(LoginPageStpsdef.java:23)&#13;&#10;&#9;at ✽.Given User is already on login page(C:/Users/sai/workspace/MakeMyTrip/src/main/java/com/makemytrip/feature/loginpage.feature:4)&#13;&#10;"><![CDATA[Given User is already on login page.........................................failed
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="1.231924">
+<testcase classname="Verifing login page of the makemytrip" name="Verifing login page with valid details" time="1.231924">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.makemytrip.stepdefinition.LoginPageStpsdef.user_is_already_on_login_page(LoginPageStpsdef.java:23)&#13;&#10;&#9;at ✽.Given User is already on login page(C:/Users/sai/git/.git/MakeMyTrip/src/main/java/com/makemytrip/feature/loginpage.feature:4)&#13;&#10;"><![CDATA[Given User is already on login page.........................................failed
 When User verifies title of the page........................................skipped
 Then User enters username and password......................................skipped
 Then user is on Homepage....................................................skipped
@@ -9,7 +9,7 @@ Then user is on Homepage....................................................skip
 StackTrace:
 java.lang.NullPointerException
 	at com.makemytrip.stepdefinition.LoginPageStpsdef.user_is_already_on_login_page(LoginPageStpsdef.java:23)
-	at ✽.Given User is already on login page(C:/Users/sai/workspace/MakeMyTrip/src/main/java/com/makemytrip/feature/loginpage.feature:4)
+	at ✽.Given User is already on login page(C:/Users/sai/git/.git/MakeMyTrip/src/main/java/com/makemytrip/feature/loginpage.feature:4)
 ]]></failure>
 </testcase>
 </testsuite>
